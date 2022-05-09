@@ -55,5 +55,6 @@ for o in old_vins:
     if new_vins.count(o)==0:
         sold_cars.append(o)
             
-#print (new_cars)
-#print (sold_cars)
+print ("new VINS: ", new_cars)
+
+print ("VINS that were sold: ", sold_cars)
